@@ -20,3 +20,12 @@ Instead of you taking care of the pet, the pet takes care of you.. something lik
 ![Schematic Preview](schematics.png)
 
 I think that's pretty much it. I don't remember. Oh well, I'll upload again if there's something missing. Goodluck Chat
+
+There we go, I remember something.
+## `VAPE_ANIME.ino` Configuration Notes
+
+| Line | Setting            | Description                                                                 | Current Value |
+|------|--------------------|-----------------------------------------------------------------------------|---------------|
+| 47   | **Puff Limit**     | Sets the maximum number of puffs allowed. Adjust this value to change the starting max. | `2`           |
+| 54   | **Sleep Threshold**| Determines the idle time (in milliseconds) before sleep mode is activated. | `10000 ms` (10s) |
+| 58   | **Day Length**     | Defines the duration of a "day" in the program. Set to `24 hours` for real-time days. | `120000 ms` (2 min) |
